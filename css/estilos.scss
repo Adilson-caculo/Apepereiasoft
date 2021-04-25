@@ -1,0 +1,23 @@
+
+//helpers
+@import "helpers/variavei";
+@import "helpers/mixin";
+
+
+//reset normalize
+@import "base/normalize";
+
+//layout
+@import "layout/geral";
+@import "layout/header";
+@import "layout/destaque";
+@import "layout/sobre";
+@import "layout/planos";
+@import "layout/blog";
+@import "layout/contacto";
+@import "layout/footer";
+/*media queries*/
+@import "media-queries"
+
+
+
