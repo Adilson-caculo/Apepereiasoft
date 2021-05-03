@@ -2,6 +2,8 @@
 /** Planos **/
 .planos {
     background: $cor-auxilar;
+    margin: 0 auto;
+    text-align: center;
   }
   
   .planos h2 {
@@ -12,10 +14,16 @@
     background: white;
     width: 18em;
     display: inline-block;
-    margin: 1em 0 0 1.1em;
+    margin-top: 1em ;
+    margin-bottom: 1.1em;
     padding-bottom: 2em;
+    
+   
   }
-  
+  .container{
+    margin: 0 auto;
+    
+  }
   .plano:hover {
     background: #f9f9f9;
   }
@@ -80,4 +88,5 @@
   .icone-x {
     background-position: -33px -5px;
   }
+
   
