@@ -29,6 +29,10 @@ footer {
     right: 0;
     position: absolute;
     z-index: -1;
+    @media(max-width: "400px"){
+      
+      height: 400px;
+    }
   }
   
   footer .container {
@@ -37,14 +41,10 @@ footer {
     position: relative;
   }
   
-  footer .container img {
-    width: 250px;
+  footer .continer2 img {
+    width: 200px;
   }
   
-  .menu-rodape,
-  .social {
-    position: absolute;
-  }
   
   .menu-rodape ul li {
     display: inline-block;
@@ -64,15 +64,24 @@ footer {
   .menu-rodape li,
   .social li {
     display: inline;
+    
   }
   
   footer a {
     color: #fff;
     text-decoration: none;
   }
+ footer .continer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+  }
   
   .social li {
-    float: left;
+    display: inline-block;
+   
   }
   
   .social li a {
@@ -98,4 +107,29 @@ footer {
   
   .social a[href*="instagram"] {
     background-image: url(../imagens/instagram.png);
+  }
+  footer{
+    
+    @media(max-width: "400px"){
+      
+      .continer2{
+        text-align: center;
+        img{
+        text-align: center;
+        
+      }
+      ul{
+        margin-left: -50px;
+      }
+      } 
+      .menu-rodape li{
+        margin-left: .3em;
+        font-weight: 700;
+        text-align: center;
+      }
+      .social {
+        text-align: center;
+
+      }
+    }
   }

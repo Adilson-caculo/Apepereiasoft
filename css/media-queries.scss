@@ -15,7 +15,6 @@
 
 	 
 	.destaque {
-		font-size: 14px;
 		height: 250px;
 	}
 
@@ -28,4 +27,9 @@
 	}
 
 
+}
+@media(max-width:"400px"){
+	body{
+		min-width: 360px;
+	}
 }

@@ -5,6 +5,7 @@ header {
     background: rgba($cor-auxilar, 0.8);
     height: 90px;
     width: 100%;
+    min-width: 360px;
     position: absolute;
 
     .container {
@@ -35,9 +36,11 @@ header {
   
   .menu-principal {
     position: absolute;
+    
+   
     right: 0;
     top: -.5em;
-    font-size: 1.2em;
+    
     font-weight: lighter;
   
     ul {
@@ -50,13 +53,30 @@ header {
   a {
     color: white;
     text-decoration: none;
-  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
     &:hover {
     text-decoration: underline;
   }
-  
+
   }
-  
+  @media(max-width:"400px"){
+    .menu-principal{
+      margin-left: -100px;
+      position: relative;
+    }
+    li{
+     
+      
+      width: 3em;
+  font-weight: 900;
+    }
+    ul{
+      margin: 2px;
+      width: 300px;
+    }
+
+    
+  }
   
   }
